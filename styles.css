@@ -1,0 +1,29 @@
+.gradient {
+    height: 100vh;
+    background: hsl(var(--background-hsl));
+    background-image: radial-gradient(800px at 100% 0%,
+            hsla(155, 70%, 58%, 0.247) 0%,
+            hsla(167, 47%, 53%, 0.267) 20%,
+            hsla(178, 34%, 45%, 0.288) 40%,
+            hsla(191, 28%, 37%, 0.295) 60%,
+            hsla(204, 22%, 27%, 0.212) 80%,
+            #242a33);
+}
+
+h1 {
+    font-family: 'Satoshi', sans-serif;
+    width: 300px;
+    padding: 20px;
+    color: white;
+    font-weight: medium;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 200px;
+    margin: 0 auto;
+    border-bottom: 2px white dashed;
+}
+
+body {
+    margin: 0;
+    background-color: #242a33;
+}
